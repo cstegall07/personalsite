@@ -1,0 +1,57 @@
+Body{ 
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    border: 1px ;
+    max-width: 100%;
+ }
+
+ .navbar {
+     background-color:black;
+     overflow: hidden;
+ }
+
+ .navbar a {
+     float: left;
+     color: white;
+     text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+ }
+
+ .navbar a:hover{
+     background-color: pink;
+ }
+ 
+ #heading {
+    font-size: 40px; 
+    border: 1px;
+    text-align: center;
+ }
+ 
+ #headshot img {
+     max-width: 100%;
+     border-radius: 5px;
+     border: 1px;
+ }
+ 
+ #explore {
+  
+     border: 1px;
+ }
+ 
+ #random{
+     background-color: pink;
+     border: 1px;
+    
+ }
+
+#bdaysew{
+    float:right;
+    width: 100px;
+}
+
+#bdaysew img{
+    width: 150px;
+}
