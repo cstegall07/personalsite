@@ -15,7 +15,7 @@ function toggleDarkMode() {
    // if it's in light mode, change it to dark mode
     } else {
         bodyElement.style.background = "black"
-        randomFactDiv.style.background = "purple"
+        randomFactDiv.style.background = "black"
         darkModeBtnElement.innerHTML="Change to Light Mode"
         for (var i = 0; i<textElement.length; i++) {
             textElement[i].style.color = "white"
