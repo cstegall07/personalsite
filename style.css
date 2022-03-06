@@ -11,7 +11,7 @@ Body{
      overflow: hidden;
  }
 
- .navbar a {
+ .navbar a, .navbar button{
      float: left;
      color: white;
      text-align: center;
@@ -20,7 +20,19 @@ Body{
     font-size: 18px;
  }
 
- .navbar a:hover{
+ .navbar button{
+     float: right;
+     color: white;
+     text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    border: none;
+}  
+
+
+ .navbar a:hover, .navbar button:hover{
      background-color: pink;
  }
  
@@ -49,9 +61,14 @@ Body{
 
 #bdaysew{
     float:right;
-    width: 100px;
+    width: 200px;
 }
 
 #bdaysew img{
-    width: 150px;
+    width: 200px;
+}
+
+#bdaysew figcaption{
+    float: right;
+    text-align: right; 
 }
