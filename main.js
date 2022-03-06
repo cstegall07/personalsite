@@ -26,7 +26,7 @@ function toggleDarkMode() {
 window.onscroll = function() {myFunction()};
 
 // Get the navbar
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementsByClassName("navbar");
 
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
